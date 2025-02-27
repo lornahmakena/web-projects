@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(172, 11, 212);
+            height: 500px;
+            width: 100%;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .container .nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container .nav .menu {
+            display: flex;
+            list-style: none;
+        }
+
+        .container .nav .menu a {
+            text-decoration: none;
+            margin: 20px;
+            color: white;
+        }
+
+        .container .nav .contact {
+            color: white;
+            margin: 20px;
+        }
+
+        .container .nav .contact a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .container .content .content1{
+            color: white;
+            width: 400px;
+            position: absolute;
+            top: 20%;
+            left: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul class="menu">
+                <li><a href=""><i class="fa-solid fa-bars-staggered" style="color: #ebecf0;"></i></a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <ul class="contact">
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content1">
+                <h1>Simple<br>Web Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, a repellat. Molestiae ipsam
+                    nulla voluptatem laudantium praesentium nostrum numquam quod.</p>
+                <button><a href="">Portfolio</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
